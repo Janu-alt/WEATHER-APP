@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY"; // Replace with your actual OpenWeatherMap API key
+const apiKey = "https://api.weatherxu.com"; // Replace with your actual OpenWeatherMap API key
 const weatherBox = document.getElementById("weatherBox");
 
 async function getWeather() {
@@ -28,3 +28,4 @@ async function getWeather() {
     weatherBox.style.display = "none";
   }
 }
+
